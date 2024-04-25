@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #242323;
+  min-height: 100vh;
+}
+
+.content {
+  padding: 60px;
+  border-radius: 20px;
+  background: #000;
+}
+
+.content h1 {
+  margin-bottom: 40px;
+  font-weight: 900;
+  text-align: center;
+  font-size: 40px;
+  color: #3dcbff;
+}
+
+input {
+  padding: 20px;
+}
